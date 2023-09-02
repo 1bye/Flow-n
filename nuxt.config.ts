@@ -4,5 +4,13 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: 'vercel-edge'
-  }
+  },
+
+  modules: [
+    '@nuxtjs/supabase',
+    '@vueuse/nuxt',
+    '@nuxthq/ui',
+    'nuxt-lodash',
+    'nuxt-icon'
+  ]
 })
